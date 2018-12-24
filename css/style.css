@@ -1,4 +1,106 @@
 /*meuu+slide_abiut us*/
 /*what we do +BS4*/
 /*Out team pricing*/
-/*Kip in took và còn lại*/
+.ourteam h2{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 38px;
+	margin: 20px 0 15px 0px;
+}
+.ourteam .line{
+	width: 4%;
+	height: 2px;
+	background: black;
+	margin: 3px auto;
+	padding: 0;
+}/*
+.ourteam .img{
+	display: block;
+	float: left;
+	margin: 1%;
+}*/
+.ourteam ul{
+	margin-top: 2%;
+}
+.ourteam ul li .card{
+	border: none;
+	float: left;
+	margin: 0 5%;
+	position: relative;
+}
+.ourteam ul li .card img{
+	width: 100%;
+}
+.ourteam ul li .text{
+	background: rgba(152, 213, 226, 0.6);
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 3%;
+	transition: all 1s ease;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+.ourteam ul li .text i{
+	font-size: 24px;
+	color: blue;
+}
+.prcing{
+	background-image: url("C:/Users/PC/Desktop/NhomBoa/images/img.jpg");
+	background-size: 100% 100%;
+}
+.prcing h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 38px;
+	margin: 30px 0 15px 0;
+}
+.prcing .line{
+	width: 4%;
+	height: 2px;
+	background: black;
+	margin: 3px auto;
+	padding: 0;
+}
+.prcing p{
+	text-align: center;
+	padding: 5px 0;
+	margin: 0;
+	line-height: 20px;
+	font-weight: bolder;
+}
+.prcing ul li h3{
+	text-align: left;
+	font-size: 34px;
+	margin:0;
+	padding: 0;	
+}
+.prcing ul li h3 b{
+	font-size: 16px;
+	margin: 0;
+	padding: 0	
+}
+/*.prcing ul{
+	margin: 10%;
+}*/
+.prcing ul li{
+	border-left: 2px solid white;
+}
+.prcing ul li a{
+	color: white;
+	padding: 2px;
+}
+.prcing ul li a.btn{
+	text-transform: uppercase;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.ourteam ul li .card:hover +.text{
+	display: block;
+	z-index: 2;
+}
+
+/*Kip in took và còn lại*
