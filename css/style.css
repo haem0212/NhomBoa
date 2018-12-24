@@ -188,6 +188,74 @@ border: 2px solid white;
 	}
 }
 /*what we do +BS4*/
+.what-we-do{
+	text-align: center;
+}
+.what-we-do .line{
+	margin:0 auto;
+	width: 100px;
+	height: 3px;
+	background: black;
+}
+.main-title{
+	position: relative;
+	color: white;
+	height:
+	background-image: url(..\images\Background-courtry.jpg);
+}
+.main-title .s-title{
+	width: 80%;
+	position: absolute;
+	top: 48px;
+	left: 10%;
+	float: left;
+}
+.main-title .s-title .t-title{
+	margin-top: 50px;
+	width:100%;
+	float: left;
+}
+.main-title .s-title .t-title .title{
+	width: 30%;
+	float: left;
+}
+.main-title .s-title .t-title .icon{
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+	border: dashed;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	margin-bottom: 20px;
+}
+.main-title .s-title .t-title .icon i{
+	padding-top: 15px;
+	transform: rotate(-45deg);
+	margin-top: 2px;
+	margin-right: 20%;
+}
+.main-title .s-title .t-title .icon:hover{
+	background:blue;
+	border:none;
+}
+.bootstrap{
+	position: relative;
+}
+.bootstrap .background{
+	padding-left: 10%;
+	margin: 0 auto;
+	width: 80%;
+	top: 10%;
+	position: absolute;
+	text-align: left;
+}
+.bootstrap .background .left{
+	float: left;
+}
+.bootstrap .background .text p{
+	color: white;
+}
 /*Out team pricing*/
 /*Kip in took và còn lại*/
 >>>>>>> 3984c5c8862dd2e0a564e8ff072dd4a2790e06e1
