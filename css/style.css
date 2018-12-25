@@ -1,3 +1,45 @@
+.header .btn-group button {
+  background: none; }
+.header .btn-group button.a {
+  border-left: 1px solid black;
+  background: none; }
+.header ul {
+  margin-left: 25%; }
+  .header ul li {
+    list-style: none;
+    float: left; }
+
+.Logo .row .col-12 a.navbar-brand {
+  border: 0.3rem solid white; }
+
+.Coco {
+  background-image: url(../images/Background-courtry.jpg);
+  padding: 5rem;
+  position: relative; }
+  .Coco a {
+    margin-top: 3rem;
+    border: 1px solid white; }
+  .Coco a.US {
+    border: none; }
+  .Coco .row a.next, .Coco .row a.prev {
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border: 1px dashed white;
+    transform: rotate(45deg);
+    top: -11rem;
+    left: -2rem;
+    position: relative; }
+    .Coco .row a.next i, .Coco .row a.prev i {
+      position: absolute;
+      right: 0.5rem;
+      top: 0.5rem;
+      transform: rotate(-225deg); }
+  .Coco .row a.prev {
+    left: 94%;
+    transform: rotate(-135deg); }
+
 .About .line1 {
   height: 0.05rem;
   width: 2.3rem;
@@ -16,8 +58,7 @@
     width: 9rem;
     border-radius: 70%;
     height: 9rem;
-    border: 1px solid black;
-    margin-left: 25%; }
+    border: 1px solid black; }
     .About .row .card .circle i {
       margin-top: 31%; }
     .About .row .card .circle:hover {
@@ -27,6 +68,104 @@
     border-radius: 50%; }
     .About .row .card a:hover {
       background: blue; }
+
+.what {
+  background-image: url(../images/Background-courtry2.jpg); }
+  .what .line1 {
+    height: 0.05rem;
+    width: 2.3rem;
+    background: black;
+    margin-left: 48.5%; }
+  .what .line2 {
+    height: 0.05rem;
+    width: 2.3rem;
+    background: black;
+    margin-top: 0.4rem;
+    margin-left: 48.5%; }
+  .what .row .conten a {
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
+    border: 1px dashed white;
+    transform: rotate(45deg);
+    margin-top: 3rem; }
+    .what .row .conten a:hover {
+      background: blue; }
+    .what .row .conten a i {
+      margin: 0 auto;
+      margin-top: 1rem;
+      transform: rotate(-45deg); }
+  .what .row .conten h4 {
+    margin-top: 2rem; }
+
+.BS4 {
+  background-image: url(../images/bai-bien-7.jpg); }
+  .BS4 .row .bs4 h1 {
+    padding-top: 2rem; }
+  .BS4 .row .pic img {
+    margin: 0 auto;
+    height: 20rem; }
+
+.Ourteam .line1 {
+  height: 0.05rem;
+  width: 2.3rem;
+  background: black;
+  margin-left: 48.5%; }
+.Ourteam .line2 {
+  height: 0.05rem;
+  width: 2.3rem;
+  background: black;
+  margin-top: 0.35rem;
+  margin-left: 48.5%; }
+.Ourteam ul {
+  position: relative;
+  margin-top: 2rem;
+  list-style: none; }
+  .Ourteam ul .row .Card li .card1 {
+    margin-top: 3rem;
+    border: none; }
+    .Ourteam ul .row .Card li .card1 img {
+      height: 24rem; }
+    .Ourteam ul .row .Card li .card1:hover .card-body {
+      display: none; }
+    .Ourteam ul .row .Card li .card1:hover + .card2 {
+      display: block; }
+  .Ourteam ul .row .Card li .card2 {
+    position: absolute;
+    display: none;
+    top: 3rem;
+    width: 94%;
+    height: 90%;
+    background: rgba(42, 222, 249, 0.5); }
+    .Ourteam ul .row .Card li .card2:hover {
+      display: block; }
+    .Ourteam ul .row .Card li .card2:hover {
+      display: block; }
+    .Ourteam ul .row .Card li .card2 ul {
+      margin: 0; }
+
+.Pricing {
+  background-image: url(../images/b.jpg); }
+  .Pricing .line1 {
+    height: 0.05rem;
+    width: 2.3rem;
+    background: white;
+    margin-left: 48.5%; }
+  .Pricing .line2 {
+    height: 0.05rem;
+    width: 2.3rem;
+    background: white;
+    margin-top: 0.4rem;
+    margin-left: 48.5%; }
+  .Pricing .row {
+    margin-left: 1rem; }
+    .Pricing .row .a {
+      border-left: 1px solid white; }
+      .Pricing .row .a a {
+        margin-bottom: 1rem; }
+        .Pricing .row .a a:hover {
+          background: blue; }
 
 .keepintouch .line1 {
   height: 0.05rem;
@@ -57,7 +196,25 @@
   height: 5rem; }
   .footer .row .col-sm-9 a.navbar-brand {
     border: 0.3rem solid white; }
+  .footer .row .col-sm-9 ul {
+    margin-left: 12rem; }
   .footer .row .col-sm-3 {
     margin-top: 1.5rem; }
+
+.All {
+  height: 3rem;
+  background: black; }
+  .All h5 {
+    line-height: 3rem; }
+
+@media screen and (max-width: 1080px) {
+  .header, .footer {
+    display: none; }
+
+  .BS4 img {
+    margin-right: 4rem; } }
+@media screen and (max-width: 768px) {
+  .All h5 {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
